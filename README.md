@@ -1,7 +1,6 @@
 # Protofine AI Accountability Receipt API
 
-A backend system that stores AI request-response records and generates
-tamper-evident hash-chain receipts.
+A backend system that stores AI request-response records and generates tamper-evident hash-chain receipts.
 
 ## Problem
 
@@ -35,8 +34,7 @@ The record hash is calculated from:
 - Previous hash
 - Creation timestamp
 
-Therefore, changing stored content without updating its hash causes
-verification to fail.
+Therefore, changing stored content without updating its hash causes verification to fail.
 
 ## API Endpoints
 
